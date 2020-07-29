@@ -1,0 +1,32 @@
+% This is the Python config file of the industrial ecology group at the University of Freiburg
+% This script contains the machine-specific paths to run the different model scripts
+% On each machine where the model scripts run, this file needs to be copied to the location returned by the Python command    os.path.expanduser("~/PythonConfigFile.txt")
+% File syntax: Specifier = value \n  For example: Data_Path_Network_1=K:\Research_Data\ Python scans for '=' and '\n' and takes values from between.
+% White spaces at beginning and end are stripped off by Python
+% Always end folder path with backslash!
+% The following paths work on the machine FNET 1013 (personal laptop of Stefan Pauliuk)
+
+
+% User name, add your own name here!
+UserName=ghardadi
+
+% Path where the scripts are located and results are stored locally:
+Project_Path_1=C:/Users/ghardadi/
+
+% Name of the project configuration file:
+Configuration_File_1=MRIO_Config.xlsx
+
+% Main data path (network drive):
+Data_Path_Network_1=K:/Research_Data/
+
+% Local data path:
+MRIO_Model_Path=C:/Users/ghardadi/EXIOBASE_2/
+Data_Path_Local_2=C:/Users/ghardadi/EXIOBASE_2/
+
+% Path to ancillary functions and classes:
+Package_Path_1=C:/Users/ghardadi/
+
+% Username and password for group database
+DB_User=sp1046
+DB_PW=##############
+
